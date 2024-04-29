@@ -1,0 +1,6 @@
+#n = bool(input('digite um valor: '))
+#print(n)
+d = input('digite algo: ')
+print('o que ele digitou é um numero?', d.isnumeric())
+print('o que ele digitou é uma palavra?', d.isalpha())
+print('o que ele digitou esta em minusculo?', d.islower())
