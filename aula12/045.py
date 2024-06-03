@@ -1,11 +1,20 @@
 from random import randint
+from time import sleep
 print('Pedra, Papel e Tesoura')
 print('Sua opções:')
 print('[1] Pedra')
 print('[2] Papel')
 print('[3] Tesoura')
 p = int(input('Qual sua jogada? '))
-c = randint(1, 3)
+print('-='* 11)
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PO!')
+sleep(1)
+print('-='*10)
+c = randint(1, 3) 
 if p == 1:
     if c == 1:
         print('Empate')
@@ -26,4 +35,4 @@ elif p == 3:
     elif c == 2:
         print('Voce Ganhou')
     elif c ==3:
-        print('empatou')
+        print('empatou') 
