@@ -1,6 +1,8 @@
-n = int(input('Digite um numero: '))
+n = eeee
 p = 0
 for c in range(0, n+1):
-    if c % n == 0:
-        p += 1
-print(p)
+    if n % c == 0:
+       print('\033[34m', end= '')
+    else:
+        print('\033[m', end= '')
+    print('{}'.format(c), end= '')
