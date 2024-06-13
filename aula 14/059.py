@@ -1,3 +1,4 @@
+from time import sleep
 p = int(input('Primeiro Valor: '))
 s = int(input('Segundo Valor: '))
 soma = 0
@@ -30,7 +31,10 @@ while o != 5:
     elif o == 4:
         p = int(input('Primeiro Valor: '))
         s = int(input('Segundo Valor: '))
-    elif p o == :
+    elif o == 5:
+        print('Finalizando...')
+        sleep(1)
+
     else:
         print('OPÇÃO INVALIDA, TENTE NOVAMENTE')
 print('FINALIZANDO...')
