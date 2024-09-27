@@ -1,26 +1,10 @@
-def lin():
-    print('-' * 40)
+def fatorial(num=1):
+    f = 1
+    for c in range(num, 0, -1):
+        f *= c
+        return f
 
+#programa principal
 
-def titulo(txt):
-    print('-' * 30)
-    print(txt)
-    print('-' * 30)
-
-
-def soma(a, b):
-    s = a + b
-    print(f'o valor da soma de {a} + {b} é {s}')
-
-
-#Programa Principal
-a = int(input('Digite um valor: '))
-b = int(input('Digite outro valor: '))
-soma(a, b)
-
-###lin()
-###print('Anderson Melo')
-###lin() 
-###titulo('Anderson Melo')
-###titulo('el batorezao')
-###titulo('Fofucho')
+n = int(input('Digite um numero: '))
+print(f'o fatorial de {n} é igual a {fatorial(n)}')

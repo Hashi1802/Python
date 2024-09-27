@@ -1,6 +1,7 @@
 from random import randint
 from time import sleep
 def sorteia(lista):
+    """teste"""
     print('SORTEANDO 5 VALORES DA LISTA ', end='')
     for cont in range(1, 5):
         n = randint(1, 10)
@@ -15,5 +16,4 @@ def somapar(lista):
     print(f'somando os valores pares de {lista} temos {soma}')
 
 numeros = list()
-sorteia(numeros)
-somapar(numeros)
+help(sorteia)
