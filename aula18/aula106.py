@@ -28,7 +28,7 @@ def titulo(msg, cor=1):
 #programa principal
 comando = ''
 while True:
-    titulo('Sistema de Ajuda Python', 2)
+    titulo('Sistema de Ajuda ex108', 2)
     comando = str(input("função ou biblioteca >"))
     if comando.upper() == 'FIM':
         break
